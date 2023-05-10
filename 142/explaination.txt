@@ -1,0 +1,12 @@
+Why slow get to head and next iternation can get to the starting point?
+
+x: The length from head to the start point
+y: The length in the loop
+C: The length of cycle
+
+2(x+y)-(x+y) = n * C
+
+so: x+y = nc
+
+From head to start point is x;
+So, fast run 2x+y = nc + x; Also end at the start point.
